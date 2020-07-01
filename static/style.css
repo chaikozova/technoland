@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+header img{
+    width: 300px;
+    margin-left: 1%;
+} 
+nav{
+    width: 50%;
+    position: absolute;
+    top: 22.2vh;
+    left: 50%;
+}nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(79,78,47)  !important;
+}
+section.about{
+    display: grid;
+    grid-template-columns: 50% 35%;
+    grid-gap: 5%;
+    margin:0 5%;
+}
+.slide{
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.aboutContent{
+    border-top: 2px solid rgb(211,216,38);
+    text-align: center;
+    padding-top: 4%;
+}
+.aboutContent p{
+    text-align: justify;
+}
+section.featured{
+    margin: 5% 6%;
+}
+.featuredBlocks div{
+    margin: 0 1.2%
+}
+.dash{
+    width: 50%;
+    border: 2px solid rgb(211,216,38) ;
+    margin: 2em 0;
+}
+.btn{
+    background-color:rgb(211,216,38) !important ;
+}
+footer{
+    flex-direction: row;
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(157,143,114);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+footer i{
+    color: rgb(211,216,38);
+}
+.socialIcons{
+    position: absolute;
+    left: 80%;
+}
+.fab{
+    margin:0 15px;
+    font-size: x-large;
+    transform: 1s;
+}
+.fab:hover{
+    transform: scale(1.1);
+}
+section.contacts{
+ height: 80vh;
+ margin: 5% 6%;
+}
+section.contacts img{ 
+    width: 100%;
+}
+.contactsInner {
+    display: grid;
+    grid-template-columns: 50% 35%;
+    grid-gap: 5%;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.address p{
+    width: 100%;
+    color: rgb(211,216,38);
+}
+.address p span{
+   color: rgb(79,78,47);
+   margin-left: 2%;
+}
+section.news{
+    margin: 0 6%;
+}
+.newsGrid{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 5%;
+}
+.newsGrid a{
+    color: rgb(79,78,47);
+}
+.newsGrid div{
+    display: flex;
+    flex-direction: column;
+}
+.newsGrid a:hover{
+    color: rgb(79,78,47);
+}
+section.photo{
+    margin: 5% 6%;
+    width: 88%;
+}
+.album{
+    display: flex;
+    flex-direction: row;
+}
+.album img{
+    width: 23%;
+    height: auto;
+    margin: 1%;
+}
+.buttunAlbum {
+    margin: 1%;
+}
+/* RGB (211,216,38) green
+RGB (157,143,114) grey
+RGB (79,78,47) black */
