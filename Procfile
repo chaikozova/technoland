@@ -1,2 +1,2 @@
-web: gunicorn technoland:app
+web: gunicorn technoland:technoland
 
