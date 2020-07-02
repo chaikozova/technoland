@@ -1,13 +1,6 @@
-import os
-from logging.handlers import RotatingFileHandler
-
-from flask import Flask, render_template, Config, logging
+from flask import Flask, render_template
 
 app = Flask(__name__)
-
-
-
-
 
 @app.route('/')
 def index():
